@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting - awesome change</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">awesome change</a></h1>
+    </header>
+
+    <main>
+        <section class="painting-detail" id="painting-detail">
+            <p class="loading">Loading painting...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 awesome change</p>
+    </footer>
+
+    <script>
+        // Load painting details based on URL parameter
+        document.addEventListener('DOMContentLoaded', function() {
+            const params = new URLSearchParams(window.location.search);
+            const id = parseInt(params.get('id'));
+            const container = document.getElementById('painting-detail');
+            
+            if (!id) {
+                container.innerHTML = '<p>No painting selected.</p>';
+                return;
+            }
+
+            fetch('paintings.json')
+                .then(response => response.json())
+                .then(paintings => {
+                    const painting = paintings.find(p => p.id === id);
+                    
+                    if (!painting) {
+                        container.innerHTML = '<p>Painting not found.</p>';
+                        return;
+                    }
+
+                    document.title = painting.title + ' - awesome change';
+                    
+                    container.innerHTML = `
+                        <img src="${painting.image}" alt="${painting.title}" onerror="this.style.display='none'">
+                        <div class="painting-detail-info">
+                            <h2>${painting.title}</h2>
+                            <div class="painting-detail-meta">
+                                <p><strong>Year:</strong> ${painting.year}</p>
+                                <p><strong>Medium:</strong> ${painting.medium}</p>
+                                <p><strong>Size:</strong> ${painting.size}</p>
+                            </div>
+                            <p class="painting-detail-description">${painting.description}</p>
+                        </div>
+                    `;
+                })
+                .catch(err => {
+                    console.error('Error loading painting:', err);
+                    container.innerHTML = '<p>Unable to load painting details.</p>';
+                });
+        });
+    </script>
+</body>
+</html>

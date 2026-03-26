@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Bilde1",
+    "year": "2023",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "All characters from SpongeBob SquarePants, painted on my living room table. Took 6 months and was one of the first things I started to paint.",
+    "image": "images/bilde1-painting-clean.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Bilde2",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting for a friend. All the 'squares' are different memories from growing up.",
+    "image": "images/bilde2-painting-clean.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Bilde3",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "SpongeBob painting with different characters from the series.",
+    "image": "images/bilde3-painting-clean.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Bilde4",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting of me as a dark tree screaming out all the pain — and good colors starting to come at the end of the branches.",
+    "image": "images/bilde4-painting-clean.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Bilde5",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting with a lot of different characters, many of which have been in different paintings before. There's also a SpongeBob in pieces — can you find them all?",
+    "image": "images/bilde5-painting-clean.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Bilde6",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "Good trip, bad trip. Right side is the good trip, left side is the bad trip. Lighter colors on the right, darker on the left — a colorful painting.",
+    "image": "images/bilde6-painting-clean.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Bilde7",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "Different 'squares' each have a joke painting. On the left side: word 'fued' with people fighting and holding up signs — one side saying football, the other side soccer.",
+    "image": "images/bilde7-painting-clean.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Bilde8",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A colorful painting of a cousin sitting in a hammock by the lake.",
+    "image": "images/bilde8-painting-clean.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Bilde9",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A crazy painting with googly eyes. Each different 'square' has its own special absurd creature.",
+    "image": "images/bilde9-painting-clean.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Bilde10",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A music album cover for (me) Awesome Change, with some throwbacks to different paintings.",
+    "image": "images/bilde10-painting-clean.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Bilde11",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "Magical Painter — a painting of a magical painter in his cave where he and his magical painting brushes create magical paintings.",
+    "image": "images/bilde11-painting-clean.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Bilde12",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting that says 'I can't paint but I can still have fun with paint.' Four squares: first says 'painting tag', second says 'put the paint brush in the can', third says 'paint boxing', last says 'musical paint'. Each square is a play on an activity.",
+    "image": "images/bilde12-painting-clean.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Bilde13",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting made before Bilde11. When the magical painter 'sheds' off worries, the cave door opens and he steps in to become the Magical Painter.",
+    "image": "images/bilde13-painting-clean.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Bilde14",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting of the light door to heaven — where you see your loved ones.",
+    "image": "images/bilde14-painting-clean.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Bilde15",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "Another painting where different 'squares' have different creatures and jokes — like 'buy 1 get 2 for free' with a shelf filled with 1s and 2s.",
+    "image": "images/bilde15-painting-clean.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Bilde17",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting for a couple who got married. Hands holding a heart, the couple on a swing in the middle of the heart, with 2 birds flying in carrying 2 rings.",
+    "image": "images/bilde17-painting-clean.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Bilde18",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting on the game Rocket League — featuring me and my friends. My friend is scoring, and people are holding signs saying things he usually says while playing.",
+    "image": "images/bilde18-painting-clean.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Bilde19",
+    "year": "2024",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting of a young girl riding a blue unicorn with a pink background, rainbow and smiling clouds.",
+    "image": "images/bilde19-painting-clean.jpg"
+  }
+]

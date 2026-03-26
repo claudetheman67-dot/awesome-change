@@ -1,0 +1,278 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+}
+
+header h1 a {
+    color: inherit;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.tagline {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.intro {
+    font-size: 1rem;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #1a1a1a;
+}
+
+.btn-secondary:hover {
+    background-color: #eee;
+}
+
+/* Gallery */
+.gallery-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.gallery-intro h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.gallery-intro p {
+    color: #666;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-4px);
+}
+
+.gallery-item a {
+    display: block;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item-info {
+    padding: 1rem;
+}
+
+.gallery-item-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.gallery-item-year {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.loading {
+    text-align: center;
+    color: #888;
+    grid-column: 1 / -1;
+}
+
+/* Painting detail */
+.painting-detail {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.painting-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.painting-detail-info h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.painting-detail-meta {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.painting-detail-meta p {
+    margin-bottom: 0.5rem;
+}
+
+.painting-detail-description {
+    color: #444;
+    line-height: 1.8;
+}
+
+/* About */
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    color: #444;
+    line-height: 1.8;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+    font-size: 0.85rem;
+    border-top: 1px solid #eee;
+    margin-top: 4rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    .hero {
+        padding: 3rem 1.5rem;
+    }
+
+    .tagline {
+        font-size: 1.1rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
