@@ -160,5 +160,14 @@
     "size": "Unknown",
     "description": "A painting of a young girl riding a blue unicorn with a pink background, rainbow and smiling clouds.",
     "image": "images/bilde19-painting-clean.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Bilde20",
+    "year": "2026",
+    "medium": "Acrylic on canvas",
+    "size": "Unknown",
+    "description": "A painting of Donkey Kong Country game cover. Donkey Kong carrying bananas, Diddy Kong riding Rambi the Rhino, with Gnawty, Zingers, Slippa and Squawks. One of my favorite Super Nintendo games.",
+    "image": "images/bilde20-painting-clean.jpg"
   }
 ]
